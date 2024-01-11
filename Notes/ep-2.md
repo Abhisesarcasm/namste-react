@@ -1,6 +1,6 @@
 npm => It doesn't have any fullform you can name it anything.It doesn't stands for node package manager.But it manages the package.
 
-<!-- Go to npm docs and read it is recommended -->
+Go to npm docs and read it is recommended
 
 package.json == It is the configuration for npm and it is responsible for keeping track of what version of package is installed in our system.
 
@@ -13,10 +13,10 @@ bundler = bundles our whole code (Bundle HTML,Css & JS)
 npm i <dependency name> == normal dependency = used in production also
 npm i -D <dependency name> == dev dependency = when we are developing our app
 
- <!--"devDependencies": {
+ "devDependencies": {
     "parcel": "^2.11.0",
     "process": "^0.11.10"
-  }, -->
+  },
 
 ^ (Caret) = for minor update = If new version of parcel comes let's say 2.11.1 then it will automatically upgrade and our app will not break
 ~ (Tilde) = for major update = i.e if directly works for major update let's say for parcel 3.1.0
@@ -60,7 +60,7 @@ CDN-Links ===> not a good way to use React.
 
 npm i react & npm i react-dom
 
-<!-- <script type="module" src="App.js"></script> -->
+<script type="module" src="App.js"></script>
 
 we use type="module" for not treating our App.js as a normal js file.And also as we can use import & export.
 
@@ -116,12 +116,12 @@ So, here we can see in our terminal after running command (npx parcel build inde
 So to make our App compatible for older versions. Let's use BrowsersList which is a package that npm offers and we can read about it on (browserslist.dev).
 Go to package.json and mention it like this
 
- <!-- "browserslist": [
+ "browserslist": [
     "last 2 versions"
-  ] -->
-<!-- or -->
- <!-- "browserslist": [
+  ]
+or
+ "browserslist": [
     "last 2 Chrome versions"
-  ] -->
+  ]
 
-<!-- All the above things that we have done to ignite our app is :- npx create-react-app my-app -->
+All the above things that we have done to ignite our app is :- npx create-react-app my-app
