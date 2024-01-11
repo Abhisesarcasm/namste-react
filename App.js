@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const heading = React.createElement(
   //This createElement comes from the first link which is a core React feature.
   "h1",
@@ -27,8 +29,8 @@ const parent = React.createElement(
   { id: "parent" },
   [
     React.createElement("div", { id: "child1" }, [
-      React.createElement("h1", {}, "I'm in h1 tag"),
-      React.createElement("h2", {}, "I'm in h2 tag"),
+      React.createElement("h1", {}, "I'm inside h1 tag"),
+      React.createElement("h2", {}, "I'm inside h2 tag"),
     ]),
     React.createElement("div", { id: "child2" }, [
       React.createElement("h1", {}, "I'm in h1 tag"),
