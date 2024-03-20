@@ -1,0 +1,48 @@
+const resList = [
+  {
+    id: "275",
+    name: "Mani's Dum Biryani- 1",
+    cloudinaryImageId: "49525bb8fd8413546f67907e2174db0b",
+    costForTwo: "₹400 for Two",
+    cuisines: ["Andhra", "Biryani", "North Indian"],
+    avgRating: 4.0,
+    deliveryTime: 28,
+  },
+  {
+    id: "273",
+    name: "Mani's Dum Biryani- 2",
+    cloudinaryImageId: "dvfempk88bepceby8laz",
+    costForTwo: "₹400 for Two",
+    cuisines: ["Andhra", "Biryani", "North Indian"],
+    avgRating: 3.1,
+    deliveryTime: 28,
+  },
+  {
+    id: "272",
+    name: "Mani's Dum Biryani- 3",
+    cloudinaryImageId: "ywybr0zzpvdoo6ywczhm",
+    costForTwo: "₹400 for Two",
+    cuisines: ["Andhra", "Biryani", "North Indian"],
+    avgRating: 3.8,
+    deliveryTime: 28,
+  },
+  {
+    id: "271",
+    name: "Mani's Dum Biryani- 4",
+    cloudinaryImageId: "iivuhjc2mswi9lublktf",
+    costForTwo: "₹400 for Two",
+    cuisines: ["Andhra", "Biryani", "North Indian"],
+    avgRating: 4.1,
+    deliveryTime: 28,
+  },
+  {
+    id: "270",
+    name: "Mani's Dum Biryani- 5",
+    cloudinaryImageId: "49525bb8fd8413546f67907e2174db0b",
+    costForTwo: "₹400 for Two",
+    cuisines: ["Andhra", "Biryani", "North Indian"],
+    avgRating: 4.9,
+    deliveryTime: 28,
+  },
+];
+export default resList;

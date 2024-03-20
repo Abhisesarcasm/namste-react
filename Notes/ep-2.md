@@ -19,7 +19,7 @@ npm i -D <dependency name> == dev dependency = when we are developing our app
   },
 
 ^ (Caret) = for minor update = If new version of parcel comes let's say 2.11.1 then it will automatically upgrade and our app will not break
-~ (Tilde) = for major update = i.e if directly works for major update let's say for parcel 3.1.0
+~ (Tilde) = for major update = i.e it directly works for major update let's say for parcel 3.1.0
 ^ is recommended over ~ bcoz if we apply (Tilde ~) then there is chances that many things in our app will break
 
 ---
@@ -31,7 +31,7 @@ In package.lock.json we have "integrity" which contains hash. Sometimes, our cod
 Node Module == Contains all the code/data that we fetch from npm for that dependency
 
 Q=> Why extra folders are also there in node_modules?
-Ans => For example :- (parcel) dependency contains other dependencies with it those dependencies contains other dependencied this is called Transistive Dependency. (Dependency Tree)
+Ans => For example :- (parcel) dependency contains other dependencies with it those dependencies contains other dependencies this is called Transistive Dependency. (Dependency Tree)
 
 Q=> How many package.json ,package.lock.json are there in our application?
 Ans => Not 2 more than that. Bcoz in node_modules as we can see that every package have their own package.json
@@ -99,7 +99,7 @@ we use type="module" for not treating our App.js as a normal js file.And also as
 # Tree Shaking = Remove unused code for us.
 
 ( npx parcel build index.html )
-It is way to tell npm that idex.html is the entry point of our app.
+It is way to tell npm that index.html is the entry point of our app.
 And we will get error after running this commmand so we have to remove "main":"App.js" from package.json.
 
 ---
@@ -109,7 +109,7 @@ These 2 folders can be regenerated
 (.parcel-cache) = uses HMR
 When , development build is generated then (dist) folder is created. And all the content of our App will come from this folder.And when we update our App content it will use (.parcel-cache)
 
-So, here we can see in our terminal after running command (npx parcel build index.html) parcel compressed tour files and gave 3 files of (HTML,CSS & JS).
+So, here we can see in our terminal after running command (npx parcel build index.html) parcel compressed our files and gave 3 files of (HTML,CSS & JS).
 
 ---
 
